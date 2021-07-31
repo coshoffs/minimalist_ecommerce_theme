@@ -1,3 +1,8 @@
+header {
+    width: 100%;
+    /* Paused here */
+}
+
 header nav a img {
     width: auto;
     height: 100%;

@@ -4,18 +4,32 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <!-- Meta for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- href, title => options -->
     <link rel="icon" href="icon/homepage_icon_267x267_96dpi.png" />
     <title>Home Page</title>
+    <!-- Script from Fontawesome for icon use -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <header>
         <nav>
             <!--
                 href => absolute link to homepage
-                src, alt => options
+                src, alt, name, slogan => options
                 -->
             <a href="index.html"><img src="icon/homepage_icon_267x267_96dpi.png" alt="Home page" /></a>
+            <a href="index.html">
+                <h1>Website's Name</h1>
+                <p id="slogan">A slogan of the site</p>
+            </a>
+            <form action="">
+                <input type="search" placeholder="Search something" name="search_string" />
+                <button type="submit">
+                    <i class="fas fa-search search_icon_main"></i>
+                </button>
+            </form>
         </nav>
     </header>
     <main>
